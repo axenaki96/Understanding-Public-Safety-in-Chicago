@@ -1,0 +1,9 @@
+_output/
+/.quarto/
+*_files/
+*.html
+.Rhistory
+.RData
+.Rproj.user/
+data/raw/*
+.DS_Store

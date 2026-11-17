@@ -1,0 +1,21 @@
+---
+title: "Q4"
+subtitle: "XYZ"
+author: "Anastasia Xenaki"
+date: today
+---
+
+```{r}
+#| label: setup
+#| include: false
+source(here::here("R", "setup.R"))
+```
+
+## Findings
+
+-
+
+## Limitations
+
+-
+
