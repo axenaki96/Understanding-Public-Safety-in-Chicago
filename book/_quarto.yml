@@ -1,0 +1,25 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Understanding Public Safety in Chicago"
+  author: ["AX", "DM", "AA"]
+  date: today
+  chapters:
+    - index.qmd
+    # Add chapters here when combining, e.g.:
+    # - chapters/AX-analysis.qmd
+    # - chapters/DX-analysis.qmd
+    # - chapters/AA-analysis.qmd
+
+format:
+  html:
+    toc: true
+    code-fold: true
+    theme: cosmo
+
+execute:
+  warning: false
+  message: false
+

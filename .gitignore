@@ -7,3 +7,5 @@ _output/
 .Rproj.user/
 data/raw/*
 .DS_Store
+book/_book/
+book/.quarto/
