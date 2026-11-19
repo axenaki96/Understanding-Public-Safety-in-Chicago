@@ -88,3 +88,9 @@ missing_check <- crimes_raw |>
   arrange(desc(total_problem))
 
 print(missing_check, n = Inf)
+
+
+# Q1a How does time vary by hour, day, season, year?
+# Q1b Which communities are affected the most 
+# Q1a x Q1b
+# Q1c which features best explain how much crime happens?
