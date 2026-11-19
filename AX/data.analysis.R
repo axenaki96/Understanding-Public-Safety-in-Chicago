@@ -6,6 +6,7 @@
 library(tidyverse)
 library(lubridate)
 library(stats)
+library(gert)
 
 # ---- Settings ----
 start_year <- 2015
@@ -90,7 +91,12 @@ missing_check <- crimes_raw |>
 print(missing_check, n = Inf)
 
 
-# Q1a How does time vary by hour, day, season, year?
-# Q1b Which communities are affected the most 
-# Q1a x Q1b
-# Q1c which features best explain how much crime happens?
+# Q1a How does time vary by hour, day, season, year? (Regression model)
+# Q1b Which communities are affected the most (dim reduction one profile per com (PCA))
+# Q1a x Q1b (scaling transf)
+# Q1c which features best explain how much crime happens? (ML crime count time/place+feature attr description)
+
+# ---- commit ----
+#git_add(c("AX/data.analysis.R", ".gitignore"))
+#git_commit("Add missing data check")
+#git_push()
